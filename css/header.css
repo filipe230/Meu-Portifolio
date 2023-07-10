@@ -1,16 +1,24 @@
 header{
     background-color: white;
-    width: 100%;
-    height: 15vh;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10rem;
+    margin: 1rem;
+}
+
+.cabecalho{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {   
-    height: 100%;
-    width: fit-content;
+    /*height: 50%;
+    width: fit-content;*/
     
     display: flex;
     align-items: center;
@@ -20,32 +28,27 @@ header{
 .logo a{
     display: flex;
     align-items: center;
-    height: 100%;
 }
 
 .logo a img {
-  
-    max-height: 65%;
+    width: 220px;
+    height: 110px;
 }
 
-
-
-.logosite{
-    width: 65px;
-    height: 65px;
-}
+/*.logosite{
+    width: 50%;
+    height: 50%;
+}*/
 
 .mobile{
     display: none;
 }
 
 nav.desktop ul{
-    float: right;
+    /*float: right;*/
     position: relative;
-    margin-top: 20px;
     list-style: none;
-    margin-left: 20rem;
-    position: relative;
+    margin-left: 5rem;
 }
 
 nav.desktop li{
@@ -56,7 +59,7 @@ nav.desktop li{
 }
 
 nav.desktop a{
-    color: black;
+    color: #22C3E6;
     text-decoration: none;
     font-weight: 700;
     font-size: 1rem;
