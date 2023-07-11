@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+    <html lang="pt-br">
     <head>
         <title>Filipe Portilho Dev</title>
+
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <script type="text/javascript" src="js/mobile.js" defer></script>
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.2.0/css/all.css">
-
-
     </head>
     <body>
         <header>
@@ -47,17 +47,52 @@
                         <li><a href="">Contato</a></li>
                     </ul>
                 </nav>
+                <span class="target"></span>
+
             </div>
         </header>
-
+        <div id="apresentation">
+            <h1 class="titulo">Diplomas Registrados</h1>
+            <h3><a href="JSON/relatorio.json" download="relatorio.json" type="application/json">Baixar Arquivo JSON</a></h3>
+        </div>
         <footer>
-            <div class="sociais">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-solid fa-envelope"></i>
-                <i class="ai ai-lattes ai-4x"></i>
+            <div id="footer_content">
+                <ul class="footer-list">
+                    <h1>Menu</h1>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Formação</a></li>
+                    <li><a href="">Atuação</a></li>
+                    <li><a href="">Publicações</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+
+                <div id="footer_contacts">
+                    <h1>Redes Sociais</h1>
+    
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer-link" id="github">
+                            <i class="fa-brands fa-github"></i>
+                        </a> 
+
+                        <a href="#" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="#" class="footer-link" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+
+                        <a href="#" class="footer-link" id="lattes">
+                            <object data="imgs/icons/lattes-new.svg"> </object>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </footer> 
+
+        </footer>
     </body>
 </html>

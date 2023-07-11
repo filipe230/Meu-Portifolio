@@ -65,6 +65,7 @@ nav.desktop a{
     font-size: 1rem;
 }
 
-ul li a:hover{
-    background-color: #adcefd;
-}
+ul li a:hover {
+    border-bottom: 2px solid black;
+    transition: 0.3s;
+ }
