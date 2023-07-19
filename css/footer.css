@@ -11,6 +11,10 @@ footer {
     padding: 3rem 3.5rem;
 }
 
+.footer_contacts{
+    display: none;
+}
+
 .footer-list li{
 	font-size: 25px;
 }
@@ -55,7 +59,7 @@ footer {
     background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
-#facebook {
+#linkedin {
     background-color: #4267b3;
 }
 
