@@ -1,4 +1,4 @@
-.formacao{
+.atuacao{
     /*width: 100%;*/
     max-width: 98%;
 
@@ -14,7 +14,12 @@
     justify-content: center;
 }
 
-.tecnico, .superior, .mestrado{
+.tit_projeto{
+    font-size: 1.8rem;
+
+}
+
+.projetos{
     padding: 1rem;
     text-align: justify;
     display: block;
@@ -22,7 +27,7 @@
     border-radius: 10rem;*/
 }
 
-.tecnico, .superior, .mestrado, p{
+.projetos p{
     -webkit-margin-before: 5px;
     -webkit-margin-after: 5px;
     text-align: center;
@@ -37,16 +42,7 @@
 
 }
 
-.tecnico:hover{
-    background-color: #DADAD8;
-    color: #1c4866;
-}
-
-.superior:hover{
-    background-color: #DADAD8;
-    color: #1c4866;
-}
-.mestrado:hover{
+.projetos:hover{
     background-color: #DADAD8;
     color: #1c4866;
 }

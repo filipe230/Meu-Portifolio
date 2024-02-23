@@ -1,12 +1,12 @@
 @media screen and (max-width: 1000px){
-    .tecnico, .superior, .mestrado{
+    .regra{
         border: 1px solid black;
         border-radius: 5rem;
     }
 }
 
 @media screen and (max-width: 700px){ 
-    .tecnico, .superior, .mestrado, p{
+    .regra{
         -webkit-margin-before: 1rem;
         -webkit-margin-after: 1rem;
         text-align: center;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 500px){ 
-    .formacao{
+    .experiencia{
         margin: 2rem;
     }
 }
