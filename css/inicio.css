@@ -1,9 +1,14 @@
+*{
+    font-family: 'Anta', 'Press Start 2P', 'cursive';   
+
+}
+
 #apresentation{
     /*width: 100%;*/
 
     background-color: white;
     padding: 10px;
-    border-radius: 10rem;
+    border-radius: 2rem;
     margin: 1rem;
 
     display: flex;
@@ -12,6 +17,7 @@
     justify-content: center;
     max-width: 98%;
     margin-right: 2rem;
+
 }
 
 .foto_filipe{
@@ -38,6 +44,10 @@
 .texto_apresentation p{
     -webkit-margin-before: 1rem;
   -webkit-margin-after: 1rem;
+}
+
+.text{
+    text-align: justify;
 }
 
 .nome{

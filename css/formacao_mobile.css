@@ -1,0 +1,12 @@
+@media screen and (max-width: 1000px){
+    .tecnico, .superior, .mestrado{
+        border: 1px solid black;
+        border-radius: 10rem;
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    .formacao{
+        margin: 2rem;
+    }
+}

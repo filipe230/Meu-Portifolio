@@ -1,0 +1,56 @@
+.formacao{
+    /*width: 100%;*/
+    max-width: 98%;
+
+    background-color: white;
+
+    padding: 10px;
+    margin: 1rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecnico, .superior, .mestrado{
+    padding: 1rem;
+    text-align: justify;
+    display: block;
+    /*border: 1px solid black;
+    border-radius: 10rem;*/
+}
+
+.tecnico, .superior, .mestrado, p{
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.titulos{
+    font-size: 2rem;
+    text-align: left;
+    /*font-family: 'Press Start 2P', 'cursive';  */
+    font-weight: 100;
+
+}
+
+.tecnico:hover{
+    background-color: #DADAD8;
+    color: #1c4866;
+}
+
+.superior:hover{
+    background-color: #DADAD8;
+    color: #1c4866;
+}
+.mestrado:hover{
+    background-color: #DADAD8;
+    color: #1c4866;
+}
+
+#menu-h ul li a:hover {
+    
+}
