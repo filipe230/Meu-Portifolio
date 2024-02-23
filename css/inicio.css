@@ -1,0 +1,53 @@
+#apresentation{
+    /*width: 100%;*/
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 10rem;
+    margin: 1rem;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    max-width: 98%;
+    margin-right: 2rem;
+}
+
+.foto_filipe{
+    display: flex;   
+    align-items: center;
+    padding-right: 2rem;
+    display: inline-block;
+
+}
+
+.foto_filipe_img{
+    border-radius: 2rem;
+
+}
+
+.texto_apresentation{
+    /*flex-direction: column;*/
+    width: 60%;
+    text-align: justify;
+    display: inline-block;
+
+}
+
+.texto_apresentation p{
+    -webkit-margin-before: 1rem;
+  -webkit-margin-after: 1rem;
+}
+
+.nome{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
