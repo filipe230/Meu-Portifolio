@@ -1,0 +1,62 @@
+.publicacoes{
+    /*width: 100%;*/
+    max-width: 98%;
+
+    background-color: white;
+
+    padding: 10px;
+    margin: 1rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.publi{
+    padding: 1rem;
+    text-align: justify;
+    display: block;
+    /*border: 1px solid black;
+    border-radius: 10rem;*/
+}
+
+.publi p{
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.publi_eve, .premio_eve{
+    color: gray;
+}
+
+.titulos{
+    font-size: 2rem;
+    text-align: left;
+    /*font-family: 'Press Start 2P', 'cursive';  */
+    font-weight: 100;
+
+}
+
+.publi:hover{
+    background-color: #DADAD8;
+    color: #1c4866;
+}
+
+#premi{
+    color: #FFFF2E;
+}
+
+.premios:hover{
+    background-color: #FFFF0C;
+    color: #1c4866;
+}

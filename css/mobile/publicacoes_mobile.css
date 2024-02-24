@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px){
+    .publi{
+        border: 1px solid black;
+        border-radius: 5rem;
+        margin: 2rem;
+    }
+
+    .premios{
+        border: 1px solid black;
+        border-radius: 2rem;
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px){ 
+    .publi{
+        -webkit-margin-before: 1rem;
+        -webkit-margin-after: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    .publicacoes{
+        margin: 1.5rem;
+    }
+}
