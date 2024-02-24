@@ -14,3 +14,33 @@ $(function(){
         }
     }) 
 })
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#apresentation").offset().top
+    }, 2000);
+});
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#formacao").offset().top
+    }, 2000);
+});
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#atuacao").offset().top
+    }, 2000);
+});
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#publicacoes").offset().top
+    }, 2000);
+});
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#footer").offset().top
+    }, 2000);
+});
